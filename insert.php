@@ -25,7 +25,7 @@
         $first_name =  $_REQUEST['cname'];
         $last_name = $_REQUEST['address'];
         $gender =  $_REQUEST['contactno'];
-        $address = $_REQUEST['address'];
+        $address = $_REQUEST['product'];
         $email = $_REQUEST['email'];
          
         // Performing insert query execution
