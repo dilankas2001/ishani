@@ -68,7 +68,7 @@
   </div>
   <section id="createorder">
     <h1>Create Your Order</h1>
-    <form action="/action_page.php">
+    <form action="insert.php" method="post">
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Customer Name</label>
           <input type="email" class="form-control" id="email" placeholder="Enter Your Name" name="cname">
@@ -88,6 +88,20 @@
             <option>capatino</option>
             <option>Dark Cofee</option>
             <option>Ice Cofee</option>
+           
+          </select>
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Product Quantity</label>
+          <select class="form-select" name="product">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
            
           </select>
           </div>
