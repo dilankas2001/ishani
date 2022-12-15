@@ -1,0 +1,35 @@
+.formh{
+    color: blueviolet;
+    text-align: center;
+}
+.contacth{
+    color: rgb(240, 240, 243);
+    text-align: center;
+}
+section.contact{
+background-image: url("images/cofee1.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+dl{
+    font-size: 25px;
+    color: whitesmoke;
+    position: relative;
+    padding-left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    align-items: center;
+}
+footer{
+    background-color: black;
+    height: 100px;
+}
+.footerh{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+
+}
