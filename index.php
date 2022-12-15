@@ -23,20 +23,20 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Create Order</a>
+                <a class="nav-link" href="#createorder">Create Order</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-
+<Section id="Home">
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -50,14 +50,14 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/cofee1.webp" alt="Los Angeles" class="d-block w-100">
+        <img src="images/cofee1.webp" alt="cofee" class="d-block w-100">
       </div>
 
       <div class="carousel-item">
-        <img src="images/cofee2.webp" alt="New York" class="d-block w-100">
+        <img src="images/cofee2.webp" alt="cofee" class="d-block w-100">
       </div>
     </div>
-  
+  </Section>
     <!-- Left and right controls/icons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
@@ -67,18 +67,18 @@
     </button>
   </div>
   <section id="createorder">
-    <h1>Create Your Order</h1>
+    <h1 class="formh">Create Your Order</h1>
     <form action="insert.php" method="post">
         <div class="mb-3 mt-3">
-          <label for="email" class="form-label">Customer Name</label>
+          <label for="text" class="form-label">Customer Name</label>
           <input type="text" class="form-control"  placeholder="Enter Your Name" name="cname">
         </div>
         <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Address</label>
+            <label for="text" class="form-label">Address</label>
             <input type="text" class="form-control"  placeholder="Enter Your Address" name="address">
           </div>
           <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Contact No</label>
+            <label for="text" class="form-label">Contact No</label>
             <input type="text" class="form-control"  placeholder="Enter Your Contact No" name="contactno">
           </div>
           <div class="mb-3 mt-3">
@@ -107,7 +107,32 @@
           </div>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+     <br>
+     <br>
       </form>
   </section>
+
+  <section id="contact" class="contact">
+    <h1 class="contacth">Contact Us</h1>
+<br>
+<br>
+<br>
+    <dl>
+      <dt>Open Hours</dt>
+      <dd>8.00Am To 8.00 Pm</dd>
+      <dt>Location</dt>
+      <dd>Avissawella Road Hanwella</dd>
+      <dt>Contact No</dt>
+
+      <dd>0112121212</dd>
+    </dl>
+    <br>
+    <br>
+  </section>
+  <footer>
+<br>
+<br>
+    <h1 class="footerh">&copy Design By Isahani</h1>
+  </footer>
 </body>
 </html>
