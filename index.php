@@ -71,15 +71,15 @@
     <form action="insert.php" method="post">
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Customer Name</label>
-          <input type="email" class="form-control"  placeholder="Enter Your Name" name="cname">
+          <input type="text" class="form-control"  placeholder="Enter Your Name" name="cname">
         </div>
         <div class="mb-3 mt-3">
             <label for="email" class="form-label">Address</label>
-            <input type="email" class="form-control"  placeholder="Enter Your Address" name="address">
+            <input type="text" class="form-control"  placeholder="Enter Your Address" name="address">
           </div>
           <div class="mb-3 mt-3">
             <label for="email" class="form-label">Contact No</label>
-            <input type="email" class="form-control"  placeholder="Enter Your Contact No" name="contactno">
+            <input type="text" class="form-control"  placeholder="Enter Your Contact No" name="contactno">
           </div>
           <div class="mb-3 mt-3">
             <label for="email" class="form-label">Order Product</label>
@@ -92,7 +92,7 @@
           </select>
           </div>
           <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Product Quantity</label>
+            <label >Product Quantity</label>
           <select class="form-select" name="quantity">
             <option>1</option>
             <option>2</option>
