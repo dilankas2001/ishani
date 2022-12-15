@@ -30,7 +30,7 @@
          
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO details  VALUES ('$cname',
+        $sql = "INSERT INTO details(cname, address, contactno, product, quantity) VALUES ('$cname',
             '$address','$contactno','$product','$quantity')";
          
          if ($conn->connect_error) {
