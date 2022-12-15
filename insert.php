@@ -34,15 +34,14 @@
             '$address','$contactno','$product','$quantity')";
          
          if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully";
+            echo "Your Order is Placed";
           } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
           }
           
           $conn->close();
          
-        // Close connection
-        mysqli_close($conn);
+       
         ?>
     </center>
 </body>
