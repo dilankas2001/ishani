@@ -22,11 +22,11 @@
         }
          
         // Taking all 5 values from the form data(input)
-        $first_name =  $_REQUEST['cname'];
-        $last_name = $_REQUEST['address'];
-        $gender =  $_REQUEST['contactno'];
-        $address = $_REQUEST['product'];
-        $email = $_REQUEST['quantity'];
+        $cname =  $_REQUEST['cname'];
+        $address = $_REQUEST['address'];
+        $contactno =  $_REQUEST['contactno'];
+        $product = $_REQUEST['product'];
+        $quantity = $_REQUEST['quantity'];
          
         // Performing insert query execution
         // here our table name is college
