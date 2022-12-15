@@ -26,20 +26,20 @@
         $last_name = $_REQUEST['address'];
         $gender =  $_REQUEST['contactno'];
         $address = $_REQUEST['product'];
-        $email = $_REQUEST['email'];
+        $email = $_REQUEST['quantity'];
          
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO college  VALUES ('$first_name',
-            '$last_name','$gender','$address','$email')";
+        $sql = "INSERT INTO details  VALUES ('$cname',
+            '$address','$contactno','$product','$quantity')";
          
         if(mysqli_query($conn, $sql)){
             echo "<h3>data stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data</h3>";
  
-            echo nl2br("\n$first_name\n $last_name\n "
-                . "$gender\n $address\n $email");
+            echo nl2br("\n$cname\n $address\n "
+                . "$contactno\n $address\n $product\n $quantity"");
         } else{
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($conn);
