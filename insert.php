@@ -33,11 +33,13 @@
         $sql = "INSERT INTO details(cname, address, contactno, product, quantity) VALUES ('$cname',
             '$address','$contactno','$product','$quantity')";
          
-         if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-        echo "Connected successfully";
-        ?>
+         if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+          } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+          }
+          
+          $conn->close();
          
         // Close connection
         mysqli_close($conn);
