@@ -79,7 +79,7 @@
           </div>
           <div class="mb-3 mt-3">
             <label for="email" class="form-label">Contact No</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter Your Contact No" name="cno">
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Contact No" name="contactno">
           </div>
           <div class="mb-3 mt-3">
             <label for="email" class="form-label">Order Product</label>
@@ -93,7 +93,7 @@
           </div>
           <div class="mb-3 mt-3">
             <label for="email" class="form-label">Product Quantity</label>
-          <select class="form-select" name="product">
+          <select class="form-select" name="quantity">
             <option>1</option>
             <option>2</option>
             <option>3</option>
