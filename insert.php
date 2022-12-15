@@ -33,17 +33,11 @@
         $sql = "INSERT INTO details  VALUES ('$cname',
             '$address','$contactno','$product','$quantity')";
          
-        if(mysqli_query($conn, $sql)){
-            echo "<h3>data stored in a database successfully."
-                . " Please browse your localhost php my admin"
-                . " to view the updated data</h3>";
- 
-            echo nl2br("\n$cname\n $address\n "
-                . "$contactno\n $address\n $product\n $quantity"");
-        } else{
-            echo "ERROR: Hush! Sorry $sql. "
-                . mysqli_error($conn);
+         if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
         }
+        echo "Connected successfully";
+        ?>
          
         // Close connection
         mysqli_close($conn);
